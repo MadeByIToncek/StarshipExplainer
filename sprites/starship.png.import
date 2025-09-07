@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://db4ho6en8qolq"
-path="res://.godot/imported/mechazilla.png-45c6cc40e72b6d3fbd2a2a7c4d9915af.ctex"
+uid="uid://b6wq7rh4mxrsg"
+path="res://.godot/imported/starship.png-c6357da398d89ad6cb3ad5835afac4f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mechazilla.png"
-dest_files=["res://.godot/imported/mechazilla.png-45c6cc40e72b6d3fbd2a2a7c4d9915af.ctex"]
+source_file="res://sprites/starship.png"
+dest_files=["res://.godot/imported/starship.png-c6357da398d89ad6cb3ad5835afac4f1.ctex"]
 
 [params]
 

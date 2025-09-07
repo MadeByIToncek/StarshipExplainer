@@ -1,17 +1,17 @@
 [gd_scene load_steps=6 format=3 uid="uid://d2jxo4uxkk4op"]
 
-[ext_resource type="Texture2D" uid="uid://db4ho6en8qolq" path="res://mechazilla.png" id="1_rfkny"]
-[ext_resource type="Texture2D" uid="uid://mpoxpi82v52y" path="res://ship_qd.png" id="2_n6fui"]
-[ext_resource type="Texture2D" uid="uid://b6wq7rh4mxrsg" path="res://starship.png" id="3_lplr6"]
-[ext_resource type="Texture2D" uid="uid://fvinbri1qvkj" path="res://booster.png" id="4_sdy1h"]
-[ext_resource type="Script" uid="uid://bdky80ttayuog" path="res://StarshipExplainer.cs" id="5_yuhgg"]
+[ext_resource type="Texture2D" uid="uid://db4ho6en8qolq" path="res://sprites/mechazilla.png" id="1_rfkny"]
+[ext_resource type="Texture2D" uid="uid://mpoxpi82v52y" path="res://sprites/ship_qd.png" id="2_n6fui"]
+[ext_resource type="Texture2D" uid="uid://b6wq7rh4mxrsg" path="res://sprites/starship.png" id="3_lplr6"]
+[ext_resource type="Texture2D" uid="uid://fvinbri1qvkj" path="res://sprites/booster.png" id="4_sdy1h"]
+[ext_resource type="Script" uid="uid://bdky80ttayuog" path="res://drivers/StarshipExplainer.cs" id="5_yuhgg"]
 
 [node name="Explainer" type="Node2D"]
 
 [node name="Preview" type="Node2D" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="Preview"]
-position = Vector2(712, -423)
+position = Vector2(710, -420)
 zoom = Vector2(1.085, 1.085)
 
 [node name="Mechazilla" type="Sprite2D" parent="Preview"]
